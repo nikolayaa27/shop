@@ -13,6 +13,7 @@ User = get_user_model()
 # ***************
 # 6 Cusromer
 # 7 Specification
+#
 
 class Category(models.Model):
     name = models.CharField(max_length=255, verbose_name='Имя категории')
